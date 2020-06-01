@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+   padding: 0;   
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.main{
+    width: 40%;
+    height: 100%;
+    min-width: 200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.slides{
+   width: 100%;
+}
+.slides img{
+    width: 100%;
+}
+
+.slidesjs-pagination{
+    background: #424242;
+    list-style: none;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li{
+    float: left;
+}
+
+.slidesjs-pagination li a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover{
+    background: #000;
+}
+
+.slides .active{
+    background: #000;
+}
+
+.slidesjs-navigation{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 20px;
+    float: right;
+}
+
+body{
+    background: tomato;
+}
+.contenedor{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   /* margin: auto;*/
+    overflow: hidden;
+    
+}
+#hola {
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+}
+#hola, p{
+    margin: 0;
+}
+@keyframes  cambiar {
+ 
+ 0%{ margin-top: 0;}
+  20%{ margin-top: 0;}
+  
+  25% { margin-top: -40PX;}
+  50% { margin-top: -40PX;}
+  
+  55% { margin-top: -80PX;}
+  80% { margin-top: -80PX;}
+  
+  85% { margin-top: -40PX;}
+  95% { margin-top: -40PX;}
+  
+ 100% { margin-top: 0;}
+ 
+}
